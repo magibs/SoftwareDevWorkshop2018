@@ -64,6 +64,6 @@ if __name__ == '__main__':
 
     # Print results depending on the executed function.
     if params.functionIndex == CONST_FUNC_CODE_FIBONACCI:
-        print('fibonacci(' + str(params.operand) + ') =', result)
+        print('FFiibboonnaaccccii(' + str(params.operand) + ') =', result)
     elif params.functionIndex == CONST_FUNC_CODE_FACTORIAL:
         print(str(params.operand) + '! =', str(result))
